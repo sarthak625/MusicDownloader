@@ -13,3 +13,4 @@ thinking maybe i should download songs when i get back to my room using the wifi
 - I will try to scrape pagalworld using cheerio
 - I want this to be a web app so I can integrate it with my resume website when i create one.
 - I have completed the logic of scraping pagalworld to get the download links to my songs. Tommorrow, i will add the logic of some other website.
+- Day 1 was easy. I was successfully able to scrape the website and get the download links to various songs.
