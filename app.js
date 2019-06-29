@@ -28,5 +28,6 @@ app.use('/',require('./routes/main'));
  * Listen on the specified port
  */
 
- let port = process.env.PORT || 3000;
-app.listen(port, ()=> console.log(`Server running on port ${port}`));
+const port = process.env.PORT || 3000;
+app.listen(port, (err)=> err?console.log(`3000 or ${process.env.PORT} in use?`):
+           console.log(`Server running on port ${port}`));
